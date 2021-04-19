@@ -1,0 +1,63 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.login .login-container {
+  width: 35%;
+  margin: 0 auto;
+}
+.login .login-container input {
+  width: -webkit-fill-available;
+  padding: 10px;
+  margin: 10px 0;
+}
+.login .login-container button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px 18px;
+}
+.employee-list{
+    padding: 5%;
+    overflow-x: scroll;
+}
+.employee-list .allign-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+
+/* common */
+
+.text-danger {
+    color: red;
+}
+.text-center {
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+}
+.primary-button{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid grey;
+}
